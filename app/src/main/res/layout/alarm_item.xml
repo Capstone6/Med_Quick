@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--SetAlarm에서 알람 표시하는 모양의 xml-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/alarm_item_background"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/alarmLabelTextView"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingEnd="16dp"
+        android:text="알람 이름"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alarmDaysTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/alarmTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시간"
+        android:textSize="18sp"
+        android:paddingEnd="16dp"/>
+
+    <Switch
+        android:id="@+id/alarmSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+<!--SetAlarm에서 알람 표시하는 모양의 xml-->
